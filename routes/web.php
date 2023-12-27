@@ -18,4 +18,5 @@ Route::get('/',[direccionesController::class, 'inicio'])->name('index');
 Route::get('/contacto',[direccionesController::class, 'contact'])->name('contact');
 Route::get('/reservar',[direccionesController::class, 'reservation'])->name('reservation');
 Route::get('/menu',[direccionesController::class, 'menu'])->name('menu');
+Route::get('/reseñas',[direccionesController::class, 'reseñas'])->name('testimonial');
 

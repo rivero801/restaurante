@@ -1,8 +1,8 @@
 <!-- Navbar Start -->
 <div class="container-fluid p-0 nav-bar">
     <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
-        <a href="index.html" class="navbar-brand px-lg-4 m-0">
-            <h1 class="m-0 display-4 text-uppercase text-white">KOPPEE</h1>
+        <a href="{{route('index')}}" class="navbar-brand px-lg-4 m-0">
+            <h1 class="m-0 display-4 text-uppercase text-white">MATILDA</h1>
         </a>
         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -13,6 +13,7 @@
                 <a href="{{route('reservation')}}" class="nav-item nav-link">Reservar</a>
                 <a href="{{route('menu')}}" class="nav-item nav-link">Menu</a>
                 <a href="{{route('contact')}}" class="nav-item nav-link">Contactanos</a>
+                <a href="{{route('testimonial')}}" class="nav-item nav-link">Reseñas</a>
             </div>
         </div>
     </nav>

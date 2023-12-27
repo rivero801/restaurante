@@ -21,4 +21,8 @@ class direccionesController extends Controller
     public function reservation(){
         return view('reservation');
     }
+
+    public function reseñas(){
+        return view('testimonial');
+    }
 }
