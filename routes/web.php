@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\direccionesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[direccionesController::class, 'inicio'])->name('index');
+Route::get('/contacto',[direccionesController::class, 'contact'])->name('contact');
+Route::get('/reservar',[direccionesController::class, 'reservation'])->name('reservation');
+Route::get('/menu',[direccionesController::class, 'menu'])->name('menu');
+
